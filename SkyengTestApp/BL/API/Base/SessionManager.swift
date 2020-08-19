@@ -13,10 +13,13 @@ typealias RequestCompletionBlock = (CompletionResult?) -> Void
 let couldNotDecode = "Could not Decode"
 
 class SessionManager: API {
-    static let shared = SessionManager()
+    static let shared = SessionManager(manager: Alamofire.Session())
+        
+    init(manager: Alamofire.Session) {
+        self.manager = manager
+    }
     
-    private init() {}
-    
+    private let manager: Alamofire.Session
     private let baseUrl = "https://dictionary.skyeng.ru/api/public/v1"
     private let repeatCount = 3
     private let headers = ["Content-Type": "application/json"]
@@ -49,7 +52,7 @@ class SessionManager: API {
                                       url: baseUrl + endPoint,
                                       parameters: parameters,
                                       method: method)
-        AF.request(requestInfo.url,
+        manager.request(requestInfo.url,
                    method: method,
                    parameters: parameters,
                    encoding: method == .get ? URLEncoding.default : JSONEncoding.default,

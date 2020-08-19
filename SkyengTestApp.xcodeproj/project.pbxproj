@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3801CB7D33697F318FF2F6A3 /* Pods_SkyengTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5F1D06A235E85F3A20EEBD /* Pods_SkyengTestApp.framework */; };
+		70B67C049585D452F5F53E82 /* Pods_SkyengTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02F9B2CD4270CB5C07D4B3 /* Pods_SkyengTestAppTests.framework */; };
 		B1CA7E8724ECDA2600318099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7E8624ECDA2600318099 /* AppDelegate.swift */; };
 		B1CA7E8924ECDA2600318099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7E8824ECDA2600318099 /* SceneDelegate.swift */; };
 		B1CA7E8E24ECDA2600318099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7E8C24ECDA2600318099 /* Main.storyboard */; };
 		B1CA7E9024ECDA2800318099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7E8F24ECDA2800318099 /* Assets.xcassets */; };
 		B1CA7E9324ECDA2800318099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7E9124ECDA2800318099 /* LaunchScreen.storyboard */; };
-		B1CA7E9E24ECDA2800318099 /* SkyengTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7E9D24ECDA2800318099 /* SkyengTestAppTests.swift */; };
 		B1CA7EAD24ECDC0600318099 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EAC24ECDC0600318099 /* WordViewController.swift */; };
 		B1CA7EB024ECDDAB00318099 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7EAF24ECDDAB00318099 /* Localizable.strings */; };
 		B1CA7EB324ECDDD900318099 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EB224ECDDD900318099 /* Localization.swift */; };
@@ -30,6 +30,12 @@
 		B1CA7ECF24ECF46300318099 /* NSString+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ECE24ECF46300318099 /* NSString+Ranges.swift */; };
 		B1CA7ED124ECF4A600318099 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED024ECF4A600318099 /* UIColor+CustomColors.swift */; };
 		B1CA7ED324ED020700318099 /* MeaningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED224ED020700318099 /* MeaningCell.swift */; };
+		B1CA7ED524ED1CB400318099 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED424ED1CB400318099 /* MockURLProtocol.swift */; };
+		B1CA7ED724ED1DB900318099 /* XCTest+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED624ED1DB900318099 /* XCTest+.swift */; };
+		B1CA7ED924ED1DFA00318099 /* APIGetWordsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED824ED1DFA00318099 /* APIGetWordsTest.swift */; };
+		B1CA7EDB24ED1EED00318099 /* APIGetWordsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7EDA24ED1EED00318099 /* APIGetWordsTest.json */; };
+		B1CA7EDD24ED206600318099 /* WrongDecodeAPIGetWordsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7EDC24ED206600318099 /* WrongDecodeAPIGetWordsTest.json */; };
+		B1CA7EDF24ED20BA00318099 /* WrongAPIGetWordsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7EDE24ED20BA00318099 /* WrongAPIGetWordsTest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6517C169DA0C8634A3F14A46 /* Pods-SkyengTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-SkyengTestAppTests/Pods-SkyengTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		6AA1EC00EFA115D3BC78B322 /* Pods-SkyengTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestApp.release.xcconfig"; path = "Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		97BE43F60AE1A36BF1C3C8A5 /* Pods-SkyengTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SkyengTestAppTests/Pods-SkyengTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD5F1D06A235E85F3A20EEBD /* Pods_SkyengTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyengTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE29EF85D4EAED0F170541F2 /* Pods-SkyengTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestApp.debug.xcconfig"; path = "Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B1CA7E8324ECDA2600318099 /* SkyengTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyengTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +62,6 @@
 		B1CA7E9224ECDA2800318099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1CA7E9424ECDA2800318099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1CA7E9924ECDA2800318099 /* SkyengTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1CA7E9D24ECDA2800318099 /* SkyengTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyengTestAppTests.swift; sourceTree = "<group>"; };
 		B1CA7E9F24ECDA2800318099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1CA7EAC24ECDC0600318099 /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
 		B1CA7EAF24ECDDAB00318099 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -72,6 +79,13 @@
 		B1CA7ECE24ECF46300318099 /* NSString+Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Ranges.swift"; sourceTree = "<group>"; };
 		B1CA7ED024ECF4A600318099 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
 		B1CA7ED224ED020700318099 /* MeaningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningCell.swift; sourceTree = "<group>"; };
+		B1CA7ED424ED1CB400318099 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		B1CA7ED624ED1DB900318099 /* XCTest+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+.swift"; sourceTree = "<group>"; };
+		B1CA7ED824ED1DFA00318099 /* APIGetWordsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIGetWordsTest.swift; sourceTree = "<group>"; };
+		B1CA7EDA24ED1EED00318099 /* APIGetWordsTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = APIGetWordsTest.json; sourceTree = "<group>"; };
+		B1CA7EDC24ED206600318099 /* WrongDecodeAPIGetWordsTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WrongDecodeAPIGetWordsTest.json; sourceTree = "<group>"; };
+		B1CA7EDE24ED20BA00318099 /* WrongAPIGetWordsTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WrongAPIGetWordsTest.json; sourceTree = "<group>"; };
+		CD02F9B2CD4270CB5C07D4B3 /* Pods_SkyengTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyengTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B67C049585D452F5F53E82 /* Pods_SkyengTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				AD5F1D06A235E85F3A20EEBD /* Pods_SkyengTestApp.framework */,
+				CD02F9B2CD4270CB5C07D4B3 /* Pods_SkyengTestAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,8 +155,13 @@
 		B1CA7E9C24ECDA2800318099 /* SkyengTestAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				B1CA7E9D24ECDA2800318099 /* SkyengTestAppTests.swift */,
 				B1CA7E9F24ECDA2800318099 /* Info.plist */,
+				B1CA7ED424ED1CB400318099 /* MockURLProtocol.swift */,
+				B1CA7ED624ED1DB900318099 /* XCTest+.swift */,
+				B1CA7ED824ED1DFA00318099 /* APIGetWordsTest.swift */,
+				B1CA7EDC24ED206600318099 /* WrongDecodeAPIGetWordsTest.json */,
+				B1CA7EDA24ED1EED00318099 /* APIGetWordsTest.json */,
+				B1CA7EDE24ED20BA00318099 /* WrongAPIGetWordsTest.json */,
 			);
 			path = SkyengTestAppTests;
 			sourceTree = "<group>";
@@ -228,6 +249,8 @@
 			children = (
 				AE29EF85D4EAED0F170541F2 /* Pods-SkyengTestApp.debug.xcconfig */,
 				6AA1EC00EFA115D3BC78B322 /* Pods-SkyengTestApp.release.xcconfig */,
+				97BE43F60AE1A36BF1C3C8A5 /* Pods-SkyengTestAppTests.debug.xcconfig */,
+				6517C169DA0C8634A3F14A46 /* Pods-SkyengTestAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -258,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1CA7EA524ECDA2800318099 /* Build configuration list for PBXNativeTarget "SkyengTestAppTests" */;
 			buildPhases = (
+				F753FBE9474AEE00B7067C96 /* [CP] Check Pods Manifest.lock */,
 				B1CA7E9524ECDA2800318099 /* Sources */,
 				B1CA7E9624ECDA2800318099 /* Frameworks */,
 				B1CA7E9724ECDA2800318099 /* Resources */,
+				00A4F74F0A2C59C7665673D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,12 +351,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CA7EDB24ED1EED00318099 /* APIGetWordsTest.json in Resources */,
+				B1CA7EDD24ED206600318099 /* WrongDecodeAPIGetWordsTest.json in Resources */,
+				B1CA7EDF24ED20BA00318099 /* WrongAPIGetWordsTest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00A4F74F0A2C59C7665673D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyengTestAppTests/Pods-SkyengTestAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyengTestAppTests/Pods-SkyengTestAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyengTestAppTests/Pods-SkyengTestAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		61A4F12313027269D905F2FA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,6 +416,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F753FBE9474AEE00B7067C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyengTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -402,7 +469,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CA7E9E24ECDA2800318099 /* SkyengTestAppTests.swift in Sources */,
+				B1CA7ED724ED1DB900318099 /* XCTest+.swift in Sources */,
+				B1CA7ED924ED1DFA00318099 /* APIGetWordsTest.swift in Sources */,
+				B1CA7ED524ED1CB400318099 /* MockURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +659,7 @@
 		};
 		B1CA7EA624ECDA2800318099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BE43F60AE1A36BF1C3C8A5 /* Pods-SkyengTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,6 +682,7 @@
 		};
 		B1CA7EA724ECDA2800318099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6517C169DA0C8634A3F14A46 /* Pods-SkyengTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

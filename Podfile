@@ -1,11 +1,17 @@
 platform :ios, '12.0'
 
+use_frameworks!
+
+  def shared_pods
+      pod 'Alamofire', '~> 5.2'
+      pod 'AlamofireImage'
+      pod 'SwiftyBeaver'
+  end
+
 target 'SkyengTestApp' do
-  use_frameworks!
+    shared_pods
+end
 
-  # Pods for SkyengTestApp
-
-  pod 'Alamofire', '~> 5.2'
-  pod 'SwiftyBeaver'
-
+target 'SkyengTestAppTests' do
+  shared_pods
 end
