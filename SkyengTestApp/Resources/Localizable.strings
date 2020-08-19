@@ -9,3 +9,13 @@
 //Word search
 
 "search.title" = "Word search";
+
+//Errors
+
+"no_internet" = "Connection failed. Please, check your internet connection and try again.";
+"error400" = "Technical error: unsuccessful request validation.";
+"error401" = "Technical error: unauthorized request.";
+"error403" = "You do not have permission to perform the action.";
+"error404" = "Not found. It might be deleted from the system.";
+"errorInternal" = "Whoops... Something went wrong on the server side.";
+"alamofireError" = "Whoops... Something went wrong on the mobile side.";

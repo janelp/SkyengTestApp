@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3801CB7D33697F318FF2F6A3 /* Pods_SkyengTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5F1D06A235E85F3A20EEBD /* Pods_SkyengTestApp.framework */; };
 		B1CA7E8724ECDA2600318099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7E8624ECDA2600318099 /* AppDelegate.swift */; };
 		B1CA7E8924ECDA2600318099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7E8824ECDA2600318099 /* SceneDelegate.swift */; };
 		B1CA7E8E24ECDA2600318099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7E8C24ECDA2600318099 /* Main.storyboard */; };
@@ -17,6 +18,17 @@
 		B1CA7EB024ECDDAB00318099 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7EAF24ECDDAB00318099 /* Localizable.strings */; };
 		B1CA7EB324ECDDD900318099 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EB224ECDDD900318099 /* Localization.swift */; };
 		B1CA7EB724ECE15B00318099 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EB624ECE15B00318099 /* SearchViewController.swift */; };
+		B1CA7EBA24ECE27700318099 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EB924ECE27700318099 /* API.swift */; };
+		B1CA7EBC24ECE2CC00318099 /* SessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EBB24ECE2CC00318099 /* SessionError.swift */; };
+		B1CA7EBE24ECE49000318099 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EBD24ECE49000318099 /* SessionManager.swift */; };
+		B1CA7EC024ECE50000318099 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EBF24ECE50000318099 /* Logger.swift */; };
+		B1CA7EC224ECE5C200318099 /* CompletionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EC124ECE5C200318099 /* CompletionResult.swift */; };
+		B1CA7EC424ECE80600318099 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EC324ECE80600318099 /* SearchManager.swift */; };
+		B1CA7EC724ECE9DC00318099 /* WordResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EC624ECE9DC00318099 /* WordResponse.swift */; };
+		B1CA7ECA24ECED9B00318099 /* GenericPaginationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7EC924ECED9B00318099 /* GenericPaginationModel.swift */; };
+		B1CA7ECC24ECF26A00318099 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ECB24ECF26A00318099 /* WordCell.swift */; };
+		B1CA7ECF24ECF46300318099 /* NSString+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ECE24ECF46300318099 /* NSString+Ranges.swift */; };
+		B1CA7ED124ECF4A600318099 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED024ECF4A600318099 /* UIColor+CustomColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AA1EC00EFA115D3BC78B322 /* Pods-SkyengTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestApp.release.xcconfig"; path = "Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		AD5F1D06A235E85F3A20EEBD /* Pods_SkyengTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyengTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE29EF85D4EAED0F170541F2 /* Pods-SkyengTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestApp.debug.xcconfig"; path = "Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B1CA7E8324ECDA2600318099 /* SkyengTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyengTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CA7E8624ECDA2600318099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1CA7E8824ECDA2600318099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +59,17 @@
 		B1CA7EAF24ECDDAB00318099 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		B1CA7EB224ECDDD900318099 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		B1CA7EB624ECE15B00318099 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B1CA7EB924ECE27700318099 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B1CA7EBB24ECE2CC00318099 /* SessionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionError.swift; sourceTree = "<group>"; };
+		B1CA7EBD24ECE49000318099 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		B1CA7EBF24ECE50000318099 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B1CA7EC124ECE5C200318099 /* CompletionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionResult.swift; sourceTree = "<group>"; };
+		B1CA7EC324ECE80600318099 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		B1CA7EC624ECE9DC00318099 /* WordResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordResponse.swift; sourceTree = "<group>"; };
+		B1CA7EC924ECED9B00318099 /* GenericPaginationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPaginationModel.swift; sourceTree = "<group>"; };
+		B1CA7ECB24ECF26A00318099 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		B1CA7ECE24ECF46300318099 /* NSString+Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Ranges.swift"; sourceTree = "<group>"; };
+		B1CA7ED024ECF4A600318099 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3801CB7D33697F318FF2F6A3 /* Pods_SkyengTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75979CA853554A00A9E66FE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F1D06A235E85F3A20EEBD /* Pods_SkyengTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B1CA7E7A24ECDA2600318099 = {
 			isa = PBXGroup;
 			children = (
 				B1CA7E8524ECDA2600318099 /* SkyengTestApp */,
 				B1CA7E9C24ECDA2800318099 /* SkyengTestAppTests */,
 				B1CA7E8424ECDA2600318099 /* Products */,
+				F53A529D66850C12945E11A7 /* Pods */,
+				75979CA853554A00A9E66FE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +122,7 @@
 		B1CA7E8524ECDA2600318099 /* SkyengTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				B1CA7ECD24ECF44900318099 /* Extensions */,
 				B1CA7EB124ECDDC700318099 /* Utils */,
 				B1CA7EAE24ECDD5F00318099 /* Resources */,
 				B1CA7EA924ECDBA400318099 /* BL */,
@@ -110,6 +148,7 @@
 			children = (
 				B1CA7EAC24ECDC0600318099 /* WordViewController.swift */,
 				B1CA7EB624ECE15B00318099 /* SearchViewController.swift */,
+				B1CA7ECB24ECF26A00318099 /* WordCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -117,6 +156,8 @@
 		B1CA7EA924ECDBA400318099 /* BL */ = {
 			isa = PBXGroup;
 			children = (
+				B1CA7EC824ECED8D00318099 /* Paginator */,
+				B1CA7EB824ECE26900318099 /* API */,
 			);
 			path = BL;
 			sourceTree = "<group>";
@@ -136,8 +177,56 @@
 			isa = PBXGroup;
 			children = (
 				B1CA7EB224ECDDD900318099 /* Localization.swift */,
+				B1CA7EBF24ECE50000318099 /* Logger.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B1CA7EB824ECE26900318099 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B1CA7EC524ECE80C00318099 /* Base */,
+				B1CA7EC324ECE80600318099 /* SearchManager.swift */,
+				B1CA7EC624ECE9DC00318099 /* WordResponse.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B1CA7EC524ECE80C00318099 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B1CA7EB924ECE27700318099 /* API.swift */,
+				B1CA7EBB24ECE2CC00318099 /* SessionError.swift */,
+				B1CA7EBD24ECE49000318099 /* SessionManager.swift */,
+				B1CA7EC124ECE5C200318099 /* CompletionResult.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B1CA7EC824ECED8D00318099 /* Paginator */ = {
+			isa = PBXGroup;
+			children = (
+				B1CA7EC924ECED9B00318099 /* GenericPaginationModel.swift */,
+			);
+			path = Paginator;
+			sourceTree = "<group>";
+		};
+		B1CA7ECD24ECF44900318099 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1CA7ECE24ECF46300318099 /* NSString+Ranges.swift */,
+				B1CA7ED024ECF4A600318099 /* UIColor+CustomColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F53A529D66850C12945E11A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE29EF85D4EAED0F170541F2 /* Pods-SkyengTestApp.debug.xcconfig */,
+				6AA1EC00EFA115D3BC78B322 /* Pods-SkyengTestApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1CA7EA224ECDA2800318099 /* Build configuration list for PBXNativeTarget "SkyengTestApp" */;
 			buildPhases = (
+				61A4F12313027269D905F2FA /* [CP] Check Pods Manifest.lock */,
 				B1CA7E7F24ECDA2600318099 /* Sources */,
 				B1CA7E8024ECDA2600318099 /* Frameworks */,
 				B1CA7E8124ECDA2600318099 /* Resources */,
+				B75AE9FF0705272B1A88B129 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,15 +328,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61A4F12313027269D905F2FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyengTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75AE9FF0705272B1A88B129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyengTestApp/Pods-SkyengTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1CA7E7F24ECDA2600318099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B1CA7EB724ECE15B00318099 /* SearchViewController.swift in Sources */,
+				B1CA7EBC24ECE2CC00318099 /* SessionError.swift in Sources */,
 				B1CA7EB324ECDDD900318099 /* Localization.swift in Sources */,
 				B1CA7E8724ECDA2600318099 /* AppDelegate.swift in Sources */,
+				B1CA7EC024ECE50000318099 /* Logger.swift in Sources */,
+				B1CA7ECF24ECF46300318099 /* NSString+Ranges.swift in Sources */,
+				B1CA7ECA24ECED9B00318099 /* GenericPaginationModel.swift in Sources */,
 				B1CA7EAD24ECDC0600318099 /* WordViewController.swift in Sources */,
+				B1CA7EC224ECE5C200318099 /* CompletionResult.swift in Sources */,
+				B1CA7EC424ECE80600318099 /* SearchManager.swift in Sources */,
+				B1CA7ED124ECF4A600318099 /* UIColor+CustomColors.swift in Sources */,
+				B1CA7ECC24ECF26A00318099 /* WordCell.swift in Sources */,
+				B1CA7EC724ECE9DC00318099 /* WordResponse.swift in Sources */,
+				B1CA7EBA24ECE27700318099 /* API.swift in Sources */,
+				B1CA7EBE24ECE49000318099 /* SessionManager.swift in Sources */,
 				B1CA7E8924ECDA2600318099 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +548,7 @@
 		};
 		B1CA7EA324ECDA2800318099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE29EF85D4EAED0F170541F2 /* Pods-SkyengTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -422,6 +567,7 @@
 		};
 		B1CA7EA424ECDA2800318099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA1EC00EFA115D3BC78B322 /* Pods-SkyengTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
