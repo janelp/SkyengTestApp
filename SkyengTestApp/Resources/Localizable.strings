@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SkyengTestApp
+
+  Created by Evgeniya Bubnova on 19.08.2020.
+  Copyright © 2020 Evgeniya Bubnova. All rights reserved.
+*/
+
+//Word search
+
+"search.title" = "Word search";
