@@ -29,6 +29,7 @@
 		B1CA7ECC24ECF26A00318099 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ECB24ECF26A00318099 /* WordCell.swift */; };
 		B1CA7ECF24ECF46300318099 /* NSString+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ECE24ECF46300318099 /* NSString+Ranges.swift */; };
 		B1CA7ED124ECF4A600318099 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED024ECF4A600318099 /* UIColor+CustomColors.swift */; };
+		B1CA7ED324ED020700318099 /* MeaningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA7ED224ED020700318099 /* MeaningCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		B1CA7ECB24ECF26A00318099 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
 		B1CA7ECE24ECF46300318099 /* NSString+Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Ranges.swift"; sourceTree = "<group>"; };
 		B1CA7ED024ECF4A600318099 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		B1CA7ED224ED020700318099 /* MeaningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				B1CA7EAC24ECDC0600318099 /* WordViewController.swift */,
 				B1CA7EB624ECE15B00318099 /* SearchViewController.swift */,
 				B1CA7ECB24ECF26A00318099 /* WordCell.swift */,
+				B1CA7ED224ED020700318099 /* MeaningCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				B1CA7EB324ECDDD900318099 /* Localization.swift in Sources */,
 				B1CA7E8724ECDA2600318099 /* AppDelegate.swift in Sources */,
 				B1CA7EC024ECE50000318099 /* Logger.swift in Sources */,
+				B1CA7ED324ED020700318099 /* MeaningCell.swift in Sources */,
 				B1CA7ECF24ECF46300318099 /* NSString+Ranges.swift in Sources */,
 				B1CA7ECA24ECED9B00318099 /* GenericPaginationModel.swift in Sources */,
 				B1CA7EAD24ECDC0600318099 /* WordViewController.swift in Sources */,

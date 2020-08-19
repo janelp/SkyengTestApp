@@ -6,16 +6,37 @@
   Copyright © 2020 Evgeniya Bubnova. All rights reserved.
 */
 
-//Word search
+//search
 
-"search.title" = "Word search";
+"search.title" = "Поиск слова";
+"search.placeholder" = "Начните вводить слово";
+
+//detail
+
+"noun" = "Существительное";
+"verb" = "Глагол";
+"adjective" = "Прилагательное";
+"adverb" = "Наречие";
+"preposition" = "Предлог";
+"pronoun" = "Местоимение";
+"cardinalNumber" = "Числительное";
+"conjunction" = "Союз";
+"interjection" = "Междометие";
+"article" = "Артикль";
+"abbreviation" = "Аббревиатура";
+"particle" = "Частица";
+"ordinalNumber" = "Порядковый номер";
+"modalVerb" = "Модальный глагол";
+"phrase" = "Выражение";
+"idiom" = "Идиома";
 
 //Errors
 
-"no_internet" = "Connection failed. Please, check your internet connection and try again.";
-"error400" = "Technical error: unsuccessful request validation.";
-"error401" = "Technical error: unauthorized request.";
-"error403" = "You do not have permission to perform the action.";
-"error404" = "Not found. It might be deleted from the system.";
-"errorInternal" = "Whoops... Something went wrong on the server side.";
-"alamofireError" = "Whoops... Something went wrong on the mobile side.";
+"no_internet" = "Ошибка подключения. Пожалуйста, проверьте ваше интернет-соединение и попробуйте еще раз.";
+"error400" = "Техническая ошибка: неудачная валидация запроса.";
+"error401" = "Техническая ошибка: несанкционированный запрос.";
+"error403" = "У вас нет разрешения на выполнение действия.";
+"error404" = "Не найдено";
+"errorInternal" = "Упс ... Что-то пошло не так на стороне сервера.";
+"alamofireError" = "Упс ... Что-то пошло не так на мобильной стороне.";
+

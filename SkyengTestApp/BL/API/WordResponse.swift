@@ -38,6 +38,43 @@ struct MeaningResponse: Decodable {
         case modalVerb = "md"
         case phrase = "ph"
         case idiom = "phi"
+        
+        var localizedValue: String {
+            switch self {
+            case .noun:
+                return LS("noun")
+            case .verb:
+                return LS("verb")
+            case .adjective:
+                return LS("adjective")
+            case .adverb:
+                return LS("adverb")
+            case .preposition:
+                return LS("preposition")
+            case .pronoun:
+                return LS("pronoun")
+            case .cardinalNumber:
+                return LS("cardinalNumber")
+            case .conjunction:
+                return LS("conjunction")
+            case .interjection:
+                return LS("interjection")
+            case .article:
+                return LS("article")
+            case .abbreviation:
+                return LS("abbreviation")
+            case .particle:
+                return LS("particle")
+            case .ordinalNumber:
+                return LS("ordinalNumber")
+            case .modalVerb:
+                return LS("modalVerb")
+            case .phrase:
+                return LS("phrase")
+            case .idiom:
+                return LS("idiom")
+            }
+        }
     }
     var id: Int
     var partOfSpeechCode: SpeechCode?

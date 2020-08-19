@@ -8,6 +8,10 @@
 
 import UIKit
 
+private struct Segues {
+    static let resultSegue: String = "showWordSegue"
+}
+
 class SearchViewController: UITableViewController {
 
     private var words: PaginationModel<WordResponse> = PaginationModel<WordResponse>()
@@ -32,7 +36,7 @@ class SearchViewController: UITableViewController {
         let search = UISearchController (searchResultsController: nil)
         search.searchResultsUpdater = self
         search.obscuresBackgroundDuringPresentation = false
-        search.searchBar.placeholder = "Enter word for search"
+        search.searchBar.placeholder = LS("search.placeholder")
         self.navigationItem.searchController = search
     }
     
@@ -79,6 +83,21 @@ class SearchViewController: UITableViewController {
         cell.applyModel(WordCellModel(text: words.dataSource[indexPath.row].text, searchString: self.searchString))
         self.prepareNewApproveDataIfNeeded(indexPath: indexPath)
         return cell
+    }
+    
+    //MARK: - Table view delegate
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: Segues.resultSegue, sender: self.words.dataSource[indexPath.row])
+    }
+    
+    //MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let id = segue.identifier else { return }
+        if id == Segues.resultSegue {
+            let resultController = segue.destination as? WordViewController
+            resultController?.word = sender as? WordResponse
+        }
     }
 }
 
